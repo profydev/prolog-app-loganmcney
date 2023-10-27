@@ -1,4 +1,9 @@
 @use "color";
+@use "breakpoint";
+
+:root {
+  --desktop-breakpoint: #{breakpoint.$desktop};
+}
 
 body {
   font-family: Inter, sans-serif;
